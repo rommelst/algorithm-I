@@ -1,0 +1,15 @@
+# Created by Octave 4.2.2, Mon Apr 27 02:55:40 2020 UTC <rommelst@udemy>
+# name: x
+# type: matrix
+# rows: 1
+# columns: 8
+ 10000 0 3000 7000 20000 3000 14000 6000
+
+
+# name: y
+# type: matrix
+# rows: 1
+# columns: 8
+ 0 10000 7000 3000 21000 4000 15000 7000
+
+
