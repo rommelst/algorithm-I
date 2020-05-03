@@ -4,20 +4,32 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.princetion</groupId>
+    <groupId>org.example</groupId>
     <artifactId>algorithm-I</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>Week03</module>
-    </modules>
-    <name>algorithm-I</name>
 
     <properties>
-        <java.version>11</java.version>
-        <maven.compiler.target>11</maven.compiler.target>
         <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
+    <modules>
+        <module>java/Week03</module>
+        <module>java/Week04</module>
+    </modules>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>edu.princeton.cs</groupId>
+            <artifactId>algs4</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/java/lib/algs4.jar</systemPath>
+        </dependency>
+
+    </dependencies>
 
 </project>

@@ -1,0 +1,54 @@
+#!/bin/bash
+
+java-algs4 Collinear ../../src/test/resources/equidistant.txt
+java-algs4 Collinear ../../src/test/resources/grid4x4.txt
+java-algs4 Collinear ../../src/test/resources/grid5x5.txt
+java-algs4 Collinear ../../src/test/resources/grid6x6.txt
+java-algs4 Collinear ../../src/test/resources/horizontal100.txt
+java-algs4 Collinear ../../src/test/resources/horizontal25.txt
+java-algs4 Collinear ../../src/test/resources/horizontal50.txt
+java-algs4 Collinear ../../src/test/resources/horizontal5.txt
+java-algs4 Collinear ../../src/test/resources/horizontal75.txt
+java-algs4 Collinear ../../src/test/resources/inarow.txt
+java-algs4 Collinear ../../src/test/resources/input10000.txt
+java-algs4 Collinear ../../src/test/resources/input1000.txt
+  java-algs4 Collinear ../../src/test/resources/input20.txt
+  java-algs4 Collinear ../../src/test/resources/input40.txt
+  java-algs4 Collinear ../../src/test/resources/input56.txt
+  java-algs4 Collinear ../../src/test/resources/input80.txt
+  java-algs4 Collinear ../../src/test/resources/input100.txt
+java-algs4 Collinear ../../src/test/resources/input10.txt
+java-algs4 Collinear ../../src/test/resources/input150.txt
+java-algs4 Collinear ../../src/test/resources/input1.txt
+java-algs4 Collinear ../../src/test/resources/input2000.txt
+java-algs4 Collinear ../../src/test/resources/input200.txt
+java-algs4 Collinear ../../src/test/resources/input250.txt
+java-algs4 Collinear ../../src/test/resources/input299.txt
+java-algs4 Collinear ../../src/test/resources/input2.txt
+java-algs4 Collinear ../../src/test/resources/input3000.txt
+java-algs4 Collinear ../../src/test/resources/input300.txt
+java-algs4 Collinear ../../src/test/resources/input350.txt
+java-algs4 Collinear ../../src/test/resources/input3.txt
+java-algs4 Collinear ../../src/test/resources/input4000.txt
+java-algs4 Collinear ../../src/test/resources/input400.txt
+java-algs4 Collinear ../../src/test/resources/input48.txt
+java-algs4 Collinear ../../src/test/resources/input5000.txt
+java-algs4 Collinear ../../src/test/resources/input50.txt
+java-algs4 Collinear ../../src/test/resources/input6000.txt
+java-algs4 Collinear ../../src/test/resources/input6.txt
+java-algs4 Collinear ../../src/test/resources/input8000.txt
+java-algs4 Collinear ../../src/test/resources/input8.txt
+java-algs4 Collinear ../../src/test/resources/input9.txt
+java-algs4 Collinear ../../src/test/resources/kw1260.txt
+java-algs4 Collinear ../../src/test/resources/mystery10089.txt
+java-algs4 Collinear ../../src/test/resources/random152.txt
+java-algs4 Collinear ../../src/test/resources/random23.txt
+java-algs4 Collinear ../../src/test/resources/random38.txt
+java-algs4 Collinear ../../src/test/resources/random91.txt
+java-algs4 Collinear ../../src/test/resources/rs1423.txt
+java-algs4 Collinear ../../src/test/resources/vertical100.txt
+java-algs4 Collinear ../../src/test/resources/vertical25.txt
+java-algs4 Collinear ../../src/test/resources/vertical50.txt
+java-algs4 Collinear ../../src/test/resources/vertical5.txt
+java-algs4 Collinear ../../src/test/resources/vertical75.txt
+
