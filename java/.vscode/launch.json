@@ -1,0 +1,82 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Collinear<Week03>",
+            "request": "launch",
+            "mainClass": "Collinear",
+            "projectName": "Week03"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EventDrivenSimulation<Week04>",
+            "request": "launch",
+            "mainClass": "EventDrivenSimulation",
+            "projectName": "Week04"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PuzzleChecker<Week04>",
+            "request": "launch",
+            "mainClass": "PuzzleChecker",
+            "projectName": "Week04"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KdTree<Week05>",
+            "request": "launch",
+            "mainClass": "KdTree",
+            "projectName": "Week05",
+            "cwd": "${workspaceFolder}/Week05/src/test/resources"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KdTreeGenerator<Week05>",
+            "request": "launch",
+            "mainClass": "KdTreeGenerator",
+            "projectName": "Week05",
+            "cwd": "${workspaceFolder}/Week05/src/test/resources"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-KdTreeVisualizer<Week05>",
+            "request": "launch",
+            "mainClass": "KdTreeVisualizer",
+            "projectName": "Week05"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NearestNeighborVisualizer<Week05>",
+            "request": "launch",
+            "mainClass": "NearestNeighborVisualizer",
+            "projectName": "Week05",
+            "cwd": "${workspaceFolder}/Week05/src/test/resources"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PointSET<Week05>",
+            "request": "launch",
+            "mainClass": "PointSET",
+            "projectName": "Week05",
+            "cwd": "${workspaceFolder}/Week05/src/test/resources"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RangeSearchVisualizer<Week05>",
+            "request": "launch",
+            "mainClass": "RangeSearchVisualizer",
+            "projectName": "Week05",
+            "cwd": "${workspaceFolder}/Week05/src/test/resources"
+        }
+    ]
+}
