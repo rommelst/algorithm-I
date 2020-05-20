@@ -62,24 +62,55 @@ public class PercolationVisualizer {
     }
 
     public static void main(String[] args) {
-        In in = new In(args[0]);      // input file
-        int n = in.readInt();         // n-by-n percolation system
 
-        // turn on animation mode
-        StdDraw.enableDoubleBuffering();
+        final String[] fileList = {
+            "greeting57.txt",
+            "heart25.txt",
+            "input10-no.txt",
+            "input10.txt",
+            "input1-no.txt",
+            "input1.txt",
+            "input20.txt",
+            "input2-no.txt",
+            "input2.txt",
+            "input3.txt",
+            "input4.txt",
+            "input50.txt",
+            "input5.txt",
+            "input6.txt",
+            "input7.txt",
+            "input8-dups.txt",
+            "input8-no.txt",
+            "input8.txt",
+            "java60.txt",
+            "jerry47.txt",
+            "sedgewick60.txt",
+            "snake101.txt",
+            "snake13.txt",
+            "wayne98.txt",
+        };
+        for (final String filename : fileList) {
+            In in = new In(filename);      // input file
+            int n = in.readInt();         // n-by-n percolation system
 
-        // repeatedly read in sites to open and draw resulting system
-        Percolation perc = new Percolation(n);
-        draw(perc, n);
-        StdDraw.show();
-        StdDraw.pause(DELAY);
-        while (!in.isEmpty()) {
-            int i = in.readInt();
-            int j = in.readInt();
-            perc.open(i, j);
+            // turn on animation mode
+            StdDraw.enableDoubleBuffering();
+
+            // repeatedly read in sites to open and draw resulting system
+            Percolation perc = new Percolation(n);
             draw(perc, n);
             StdDraw.show();
             StdDraw.pause(DELAY);
+            while (!in.isEmpty()) {
+                int i = in.readInt();
+                int j = in.readInt();
+                perc.open(i, j);
+
+                draw(perc, n);
+                StdDraw.show();
+                StdDraw.pause(DELAY/100);
+            }
+            StdDraw.pause(3000);
         }
     }
 }

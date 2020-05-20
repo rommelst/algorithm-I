@@ -18,7 +18,7 @@ public class InteractivePercolationVisualizer {
 
     public static void main(String[] args) {
         // n-by-n percolation system (read from command-line, default = 10)
-        int n = 10;          
+        int n = 5;
         if (args.length == 1) n = Integer.parseInt(args[0]);
 
         // repeatedly open site specified my mouse click and draw resulting system
@@ -29,7 +29,7 @@ public class InteractivePercolationVisualizer {
         PercolationVisualizer.draw(perc, n);
         StdDraw.show();
 
-        while (StdDraw.isKeyPressed(27)) {
+        while (!StdDraw.isKeyPressed(27)) {
 
             // detected mouse click
             if (StdDraw.isMousePressed()) {
