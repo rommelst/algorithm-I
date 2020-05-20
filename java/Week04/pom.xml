@@ -10,8 +10,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-
     <artifactId>Week04</artifactId>
+
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
@@ -20,6 +27,14 @@
             <artifactId>junit-jupiter-api</artifactId>
             <version>5.7.0-M1</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>edu.princeton.cs</groupId>
+            <artifactId>algs4</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../lib/algs4.jar</systemPath>
         </dependency>
 
     </dependencies>
