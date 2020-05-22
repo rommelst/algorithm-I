@@ -6,9 +6,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InteractivePercolationVisualizer",
+            "request": "launch",
+            "mainClass": "InteractivePercolationVisualizer",
+            "projectName": "Week01"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PercolationVisualizer<Week01>",
+            "request": "launch",
+            "mainClass": "PercolationVisualizer",
+            "projectName": "Week01",
+            "cwd": "${workspaceFolder}/Week01/src/test/resources"
         },
         {
             "type": "java",
