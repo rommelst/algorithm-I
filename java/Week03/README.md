@@ -26,9 +26,9 @@ See the specification here:
 :heavy_check_mark: :trophy:
 
 ### Timing
-![Test04](./image/timing_test4a4g.png)
+![Test4a-4g](./image/timing_test4a4g.png)
 Test04:
 
 ### Memory
-![Test1a-1d and Test2 (bonus)](./image/memory_test1.png)
+![Test1a-1](./image/memory_test1.png)
 
