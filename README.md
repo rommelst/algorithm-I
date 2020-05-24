@@ -14,7 +14,7 @@
 | [06](https://github.com/rommelst/algorithm-I/tree/master/java/Week06) | Hash Tables -- Symbol Table Applications |  |
 
 ## Grade
-[Partial printscreen from coursera](https://raw.githubusercontent.com/rommelst/algorithm-I/master/java/Image/grade.png?token=ABCFPK46OTBRYD2ZRJ7VDJ26ZJ5Z4)
+[Partial printscreen from coursera](./java/Image/grade.png?token=ABCFPK46OTBRYD2ZRJ7VDJ26ZJ5Z4)
 :heavy_check_mark: :trophy:
 
 # Instalation
