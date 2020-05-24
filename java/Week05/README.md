@@ -5,16 +5,14 @@
 
 > **Geometric Applications of BSTs**: We start with 1d and 2d range searching, where the goal is to find all points in a given 1d or 2d interval. To accomplish this, we consider kd-trees, a natural generalization of BSTs when the keys are points in the plane (or higher dimensions). We also consider intersection problems, where the goal is to find all intersections among a set of line segments or rectangles.
 
-## Programming Assignement
-
-### Specification
+## Programming Assignement - Kd-Trees
 
 > **Dequeue.** .
 
 > **Randomized queue.** .
 
 See the specification here:
-[https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php)
+[https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php](https://coursera.cs.princeton.edu/algs4/assignments/kdtree/specification.php)
 
 
 ### Score

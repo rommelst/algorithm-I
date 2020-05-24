@@ -5,16 +5,14 @@
 
 > **Elementary Symbol Tables**: We define an API for symbol tables (also known as associative arrays, maps, or dictionaries) and describe two elementary implementations using a sorted array (binary search) and an unordered list (sequential search). When the keys are Comparable, we define an extended API that includes the additional methods min, max floor, ceiling, rank, and select. To develop an efficient implementation of this API, we study the binary search tree data structure and analyze its performance.
 
-## Programming Assignement
-
-### Specification
+## Programming Assignement - 8 Puzzle
 
 > **Dequeue.** .
 
 > **Randomized queue.** .
 
 See the specification here:
-[https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php](https://coursera.cs.princeton.edu/algs4/assignments/queues/specification.php)
+[https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php](https://coursera.cs.princeton.edu/algs4/assignments/8puzzle/specification.php)
 
 
 ### Score

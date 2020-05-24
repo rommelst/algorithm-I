@@ -5,9 +5,7 @@
 
 > **Elementary Sorts**: We introduce the sorting problem and Java's Comparable interface. We study two elementary sorting methods (selection sort and insertion sort) and a variation of one of them (shellsort). We also consider two algorithms for uniformly shuffling an array. We conclude with an application of sorting to computing the convex hull via the Graham scan algorithm.
 
-## Programming Assignement
-
-### Specification
+## Programming Assignement - Deques and Randomized Queues
 
 > **Dequeue.** A double-ended queue or deque (pronounced “deck”) is a generalization of a stack and a queue that supports adding and removing items from either the front or the back of the data structure. Create a generic data type Deque that implements a specific API.
 
