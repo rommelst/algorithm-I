@@ -32,10 +32,18 @@ See the specification here:
 
 ### Timing
 ![Partial printscreen from coursera](./image/timing_test04.png)
+Test04:
 
 ### Memory
 ![Partial printscreen from coursera](./image/assessment_summary.png)
+Assessment summary.
+
 ![Partial printscreen from coursera](./image/memory_test1a1d_and_test2.png)
+Test1a-1d and Test2 (bonus)
 
 ##### Bônus for solving backwash problem without second Weighetd Union Find object.
 
+>  **Backwash**: when percolation occurs, all components that contain an open cell in the bottom row are declared “full” (and will be visualized as such), because they are connected through the dummy bottom row to an actual full cell in the bottom row.
+
+As shown by image Test2 (bonus), I solved the bachwashing problem by implmenting the percolation class without a second WeightedQuickUnionUF object. The algorithm used is described in *"COS 226 Bob’s Notes 1: Union-Find and Percolation (Version 2)*" file which can be accessed in the link bellow:
+[COS 226 Bob’s Notes 1: Union-Find and Percolation (Version 2)](https://www.cs.princeton.edu/courses/archive/fall10/cos226/precepts/15UnionFind-Tarjan.pdf)
