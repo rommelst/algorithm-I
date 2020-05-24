@@ -32,3 +32,6 @@
 ### Testing
 There are many unit test in this project. Some of them was made meanwhile TDD approach was put into practice and other test cases was created according to the *Grader* during the weekly assessment
 
+### C++ version
+Coming as soon as possible.
+
