@@ -41,7 +41,7 @@ Assessment summary.
 ![Partial printscreen from coursera](./image/memory_test1a1d_and_test2.png)
 Test1a-1d and Test2 (bonus)
 
-##### Bônus for solving backwash problem without second Weighetd Union Find object.
+##### Bônus for solving backwash problem without second Weighted Quick Union Find object.
 
 >  **Backwash**: when percolation occurs, all components that contain an open cell in the bottom row are declared “full” (and will be visualized as such), because they are connected through the dummy bottom row to an actual full cell in the bottom row.
 
