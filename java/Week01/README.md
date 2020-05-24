@@ -24,7 +24,7 @@
 ![Partial printscreen from coursera](./image/timing_test04.png)
 
 ### Memory
-![Partial printscreen from coursera](./image/assessment_sumary.png)
+![Partial printscreen from coursera](./image/assessment_summary.png)
 ![Partial printscreen from coursera](./image/memory_test1a1d_and_test2.png)
 
 ##### Bônus for solving backwash problem without second Weighetd Union Find object.
